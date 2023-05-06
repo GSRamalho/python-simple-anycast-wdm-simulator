@@ -132,12 +132,6 @@ def run(uargs):
                 print("Ran in debug mode... exiting...")
                 exit(0)
                 '''
-                
-                
-                
-                
-                
-
     logger.debug(f'Starting pool of simulators with {uargs.threads} threads')
     # use the code above to keep updating the final plot as the simulation progresses
     with Pool(processes=uargs.threads) as p:
